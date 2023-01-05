@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List App</title>
+
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous" />
+ 
+  <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css" />
+
+
+
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="display-4 text-center text-info"> <i class="fas fa-book-open text-warning"></i> JsB<span class="text-warning">OO</span>K LIST</h1>
+         
+        <form id="book-form">
+            
+
+            
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" class="form-control">
+
+            </div>
+            <div class="form-group">
+                <label for="Author">Author</label>
+                <input type="text" id="Author" class="form-control">
+
+            </div>
+            <div class="form-group">
+                <label for="year">Year</label>
+                <input type="text" id="year" class="form-control">
+
+            </div>
+
+            <input type="submit" value="Add Book" class="btn btn-info btn-block">
+
+        </form>
+
+
+        <table class=" table table-striped mt-5 text-center  ">
+
+            <thead class="bg-dark">
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Year</th>
+                 </tr>
+
+            </thead>
+
+        <tbody id="booklist">
+
+        </tbody>
+        
+    </table>
+
+        
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+<script type="text/javascript" src="main.js"></script>
+
+    
+</body>
+</html>
